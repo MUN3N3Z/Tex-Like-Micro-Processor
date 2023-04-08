@@ -1,0 +1,6 @@
+\def{Animal}{#ardvark}
+\def{Zoo}{\Animal{#}}
+An \Zoo{a} eats ants.
+\undef{Animal}
+\def{Animal}{#nteater}
+An \Zoo{a} eats ants, too.
